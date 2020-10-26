@@ -5,7 +5,8 @@ with as foundation the Ragnarok boilerplate.
 
 ## Table of contents 
 
-- [Installation](installation.md)
+- [Installation](1_installation.md)
+- [Service providers](2_service-providers.md)
 
 ## Contribution Guidelines 
 
