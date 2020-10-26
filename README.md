@@ -8,6 +8,7 @@ with as foundation the Ragnarok boilerplate.
 - [Installation](1_installation.md)
 - [Service providers](2_service-providers.md)
 - [Services](3_services.md)
+- [Configuration](4_configuration.md)
 
 ## Contribution Guidelines 
 
