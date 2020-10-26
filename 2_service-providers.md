@@ -20,7 +20,7 @@ for our needs in the Ragnarok boilerplate. In this document we document which on
 
 ### Overview of the service providers 
 
-#### AppServiceProvider 
+### AppServiceProvider 
 
 (todo description)
 
@@ -30,7 +30,7 @@ The following modifications are implemented into the AppServiceProvider:
 - Method for mapping spatie/flash functions to custom css classes. 
 - Method for only registering the TelescopeServiceProvider only under development environment(s). 
 
-#### AuthServiceProvider 
+### AuthServiceProvider 
 
 The AuthServiceProvider is responsible for things like authorization policies that needs to registered for using 
 some level of authorization on specific parts of the application. 
@@ -42,13 +42,13 @@ The following modifications are implemented into the AuthServiceProvider:
 - Mapped the Announcement model to the AnnouncementPolicy class in the `$policies` array. 
 - Implemented an `Gate::after()` check for the configurable super admins in the application.
 
-#### BladeComponentServiceProvider 
+### BladeComponentServiceProvider 
 
 The blade service provider is responsible for registering blade components that are used throughout the boilerplate.
 For more information on the blade components you can read trough the following, [documentation article]() that is
 dedicated to the blade components we use.
 
-#### EventServiceProvider 
+### EventServiceProvider 
 
 The EventServiceProvider is responsible for mapping event listeners or registering Class event listeners or other
 events in the application. 
@@ -60,7 +60,7 @@ The following modifications or mappings are implemented into the EventServicePro
 - Added the RoleEventListener class event subscriber. 
 - Added the AnnouncementListener class event subscriber. 
 
-#### HelperServiceProvider 
+### HelperServiceProvider 
 
 The HelperServiceProvider is a service provider we added into the boilerplate and is hereby responsible 
 for registering all the default helpers into the boilerplate. 
@@ -69,7 +69,7 @@ For more information on the implemented helpers you can read trough the followin
 dedicated to the helpers. That we have implemented, or the creation process.
 
 
-#### RouteServiceProvider 
+### RouteServiceProvider 
 
 The RouteServiceProvider is a service provider that is responsible for registering things like the default "home" route
 for the application, The controller namespace or things like model bindings, patterns filters, etc. The only thing we have 
